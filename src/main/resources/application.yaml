@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    username: garden_user
+    password: garden_password
+    url: jdbc:mysql://localhost:3306/garden_management
+    
+  jpa:
+    hibernate:
+      ddl-auto: update  # changed from create to update
+    show-sql: true
+    defer-datasource-initialization: true
