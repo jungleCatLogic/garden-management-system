@@ -1,0 +1,13 @@
+-- execute the following sql script to create database schema and user
+
+-- create the database
+CREATE DATABASE garden_management;
+
+-- create the user 
+CREATE USER 'garden_user'@'localhost' IDENTIFIED BY 'garden_password';
+
+-- grant priveledges to the user 
+GRANT ALL PRIVILEGES ON garden_management.* TO 'garden_user'@'localhost';
+
+-- apply changes 
+FLUSH PRIVILEGES;
