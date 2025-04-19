@@ -83,6 +83,10 @@ To run this project, you need to have the following installed:
 - MySQL 
 - Maven 
 - An IDE such as Eclipse
+- REST Web API Server such as AdvancedRestClient (ARC)
+
+
+
 
 ### Installation
 
