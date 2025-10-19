@@ -27,7 +27,7 @@ import com.example.garden.controller.model.GrowingSeasonData;
 import org.springframework.web.bind.annotation.DeleteMapping;
 
 
-// Class handles HTTP requests
+// Class handles HTTP requests for all CRUD operations
 
 @RestController
 @RequestMapping("/garden")
