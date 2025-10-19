@@ -116,3 +116,4 @@ Temporary Items
 # Logs
 /logs/
 *.log
+src/main/resources/application.yaml
